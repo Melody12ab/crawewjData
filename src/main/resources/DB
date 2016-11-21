@@ -1,0 +1,13 @@
+create table file_info(
+    id int primary key auto_increment,
+    file_name varchar(64) not null,
+    company varchar(64),
+    product_name varchar(64),
+    file_version varchar(64),
+    file_size varchar(16),
+    file_path varchar(128),
+    description varchar(128),
+    download_url varchar(256)
+)
+
+insert into file_info(file_name,company,product_name,file_version,file_size,file_path,description,download_url) values("1","2","2","2","2","2","2","2")
